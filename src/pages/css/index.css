@@ -1,0 +1,162 @@
+
+*{
+    padding: 0.0%;
+    margin: 0.0%;
+}
+.home-main-container{
+    
+    /* background: ; */
+    background-repeat: no-repeat; 
+    /* background: url('./../../images/Money.png'); */  
+    
+    /* background: image('./piggy_pank.jpg'); */
+
+    /* background-image: url('./../../images/HomeBackground.png') ; */
+    height: 90vh;
+
+}
+
+.bg-img img{
+    opacity: 0.8;
+    z-index: -1;
+    position: fixed;
+    width: 100vw;
+    height : 610px;
+}
+
+.gradient{
+    z-index: -1;
+    position: fixed;
+    width: 100vw;
+    height : 610px;
+    background: linear-gradient(black,white);
+    opacity: 0.6;
+
+}
+.component-headline{
+    justify-content: space-between;
+    text-align: center;
+    font-size: 20px;
+}
+
+.component-headline .tagline-heading h1{
+    padding-top: 1rem;
+    text-decoration: underline;
+    font-size: 30px;
+    text-align: center;
+    margin:auto;
+    padding-bottom: 1rem;
+    
+}
+
+.component1 .tagline p{
+    font-size: 20px;
+    text-align: center;
+    margin:auto;
+}
+
+.card-img{
+    
+    position: absolute;
+    bottom: 0;
+    left: 6.6rem;
+    padding-bottom: .6rem;
+
+}
+.card-img img{
+    width: 16rem;
+}
+.component1 img{
+    width: 20rem;
+    border-radius: 1rem;
+}
+.component1 p{
+    margin-top: 1rem;
+}
+
+.details1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    font-size: 20px;
+    margin:  0 3rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+
+}
+.details1 .element {
+display: flex;
+}
+.details1 .element .details-heading{
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-weight: bold;
+    font-family: cursive;
+    padding-bottom: 2rem;
+    text-decoration: underline;
+}
+.details1 .element .details-text{
+    padding-top: 2rem;
+}
+
+.services-offered{
+    display: flex;
+}
+
+.services-offered .services-heading{
+    margin-left: 3rem;
+    font-size: large;
+    font-weight: bold;
+    font-family: cursive;
+    padding-bottom: 2rem;
+    text-decoration: underline;
+}
+
+.services-offered .fund-transfer{
+    font-size: 20px;
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.services-offered .Mini-Statement{
+    margin-top: 7rem;
+    font-size: 20px;
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+    padding-left: 5px;
+}
+.services-offered .Balance-Enquiry{
+    font-size: 20px;
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+    padding-left: 5px;
+}
+.services-offered .Withdrawal{
+    margin-top: 7rem;
+    font-size: 20px;
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+    padding-left: 5px;
+}
+.services-offered .Deposit{
+    font-size: 20px;
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+    padding-left: 5px;
+}
+.services-offered .Customize-Statement{
+    margin-top: 7rem;
+    font-size: 20px;
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+    padding-left: 5px;
+}
+
+.footerContainer{
+    text-align: center;
+    font-size: 18px;
+    text-decoration: underline;
+    font-family: fantasy;
+    margin: auto;
+}

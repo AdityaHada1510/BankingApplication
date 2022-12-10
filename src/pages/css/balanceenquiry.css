@@ -1,0 +1,149 @@
+/* *{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+    font-size: medium;
+} */
+
+.container{
+    background: linear-gradient(rgba(104, 1, 130, 0.966), rgb(238, 135, 39));
+    /* background: image('./piggy_pank.jpg'); */
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.Balance-container{
+/* background: linear-gradient(rgba(1, 130, 29, 0.966), rgb(218, 238, 39)); */
+border-radius: 20px;
+width: max-content;
+height: max-content;
+padding: 1rem;
+/* margin-top: 10rem; */
+/* margin: auto; auto auto 10rem ; */
+margin: auto;
+align-items: center;
+/* box-shadow: 6px 6px rgb(36, 0, 61); */
+
+}
+
+.balance-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.balance-image{
+    background-color: #fff;
+    padding: 7px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    width: max-content;
+    margin: auto;
+}
+
+.error-message{
+  margin-top: 1rem;
+  padding: .6rem; 
+  background-color: rgb(181, 3, 3); 
+  border-radius: 16px;
+  color: #ffffff;
+
+}
+
+
+.form{
+    margin: auto;
+    padding:1rem;
+    /* background: linear-gradient(rgba(1, 130, 29, 0.966), rgb(218, 238, 39)); */
+    /* border-radius: 1rem; */
+    height: 100%;
+}
+
+
+
+.form-input{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+form input{
+    padding: 10px;
+    border-radius: 16px;
+    border: none;
+}
+
+form .form-submit{
+padding:  7px 1rem;
+/* margin-right: 1rem; */
+float: right;
+background-color: rgb(0, 21, 255);
+border: 1px solid blue;
+border-radius: 20px;
+color: rgb(189, 189, 189);
+}
+form .form-submit:hover{
+    background-color: darkblue;
+}
+.form-text{
+
+    margin-top: 2rem;
+    padding: 0 1rem ;
+    color: rgb(255, 255, 255);
+    
+
+}
+.form-text a{
+    color: rgb(39, 167, 167);
+}
+
+.side-img{
+    margin: auto;
+}
+
+.side-img img{
+    width: 36rem;
+    border-radius: 1rem ;
+    opacity: 0.9;
+}
+
+.label{
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.form .primary
+{
+    display: block;
+   margin: auto;
+   margin-top: 20px;
+   padding:  10px 16px;
+   border-radius: 16px;
+   border: none;
+   background-color: rgb(33, 136, 233);
+   color: #fff;
+}
+.form .primary:hover
+{
+   background-color: rgb(5, 80, 151);
+}
+
+.form .secondary
+{
+display: block;
+   margin: auto;
+   margin-top: 20px;
+   padding:  10px 16px;
+   border-radius: 16px;
+   border: none;
+   background-color: rgb(33, 136, 233);
+   color: #fff;
+}
+.form .secondary:hover
+{
+   background-color: rgb(5, 80, 151);
+}
